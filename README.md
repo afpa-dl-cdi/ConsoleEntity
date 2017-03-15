@@ -7,7 +7,7 @@ L'objectif est de générer nos classes à partir des entités/tables de notre m
 ## Merise, MCD et Server SQL
 La base de données a été conceptualisée depuis Merise, transformée en script SQL Server et appliquée à une base de données SQL SERVER EXPRESS 2012 (voir commandes.jpg et script_commandes).
 
-image::./commandes.jpg[]
+image::commandes.jpg[]
 
 ## Connexion du projet Visual Studio à SQL Server
 Dans l'application VS 2015 menu **Outils > Connexion à la base de données** , renseigner **Nom du serveur** puis **Connexion à la base de données**. La source de données choisie est à **Microsoft SQL Server**
