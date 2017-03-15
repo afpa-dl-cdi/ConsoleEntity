@@ -13,7 +13,7 @@ La base de données a été conceptualisée depuis Merise, transformée en scrip
 Dans l'application VS 2015 menu **Outils > Connexion à la base de données** , renseigner **Nom du serveur** puis **Connexion à la base de données**. La source de données choisie est à **Microsoft SQL Server**
 
 ## Création d'un nouveau projet 
-Chosir basiquement une application de type console. 
+Choisir basiquement une application de type console. 
 
 ## Ajout d'un nouvel élément de type ADO.Net Entity Framework
 
@@ -21,4 +21,4 @@ Avec le raccourci CTRL+SHIFT+A ajouter un nouvel élément de type **données** 
 La troisième fenêtre vous permet de sélectionner les objets de la base de données à inclure dans le modèle.  Cocher **Mettre au pluriel ou au singulier...**
 
 ## Génération des différentes classes
-Si la dernière étape s'est bien déroulée, de nouvelles classes se sont créées reprenant les types et attributs des entités notre base de données. 
+Si la dernière étape s'est bien déroulée, de nouvelles classes se sont créées reprenant les types et attributs des entités de notre base de données. 
