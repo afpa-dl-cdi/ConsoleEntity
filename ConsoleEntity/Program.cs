@@ -6,22 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleEntity
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			using (var db = new CommandeContext())
-			{
-
-			}
-		}
-	}
     class Program
     {
         static void Main(string[] args)
         {
 
-            using (var db = new CommandesContext() )
+            using (var db = new CommandeContext() )
             {
 
                 /* -----------------------------
