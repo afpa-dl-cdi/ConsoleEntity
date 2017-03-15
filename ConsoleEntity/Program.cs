@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleEntity
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+	class Program
+	{
+		static void Main(string[] args)
+		{
+		}
+	}
 }

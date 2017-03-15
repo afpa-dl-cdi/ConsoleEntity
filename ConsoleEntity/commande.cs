@@ -12,8 +12,7 @@ namespace ConsoleEntity
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public commande()
         {
-            clients = new HashSet<client>();
-            comprends = new HashSet<comprend>();
+            produits = new HashSet<produit>();
         }
 
         [Key]
@@ -21,10 +20,11 @@ namespace ConsoleEntity
 
         public DateTime? date_commande { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<client> clients { get; set; }
+        public int id_client { get; set; }
+
+        public virtual client client { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<comprend> comprends { get; set; }
+        public virtual ICollection<produit> produits { get; set; }
     }
 }

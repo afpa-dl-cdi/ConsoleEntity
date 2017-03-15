@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE0CA0F5-5012-43C9-9728-BAB2264E4604}</ProjectGuid>
+    <ProjectGuid>{B9233132-FC79-4CF0-B59F-FCBF1F09C690}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ConsoleEntity</RootNamespace>
     <AssemblyName>ConsoleEntity</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -56,8 +56,7 @@
   <ItemGroup>
     <Compile Include="client.cs" />
     <Compile Include="commande.cs" />
-    <Compile Include="CommandesContext.cs" />
-    <Compile Include="comprend.cs" />
+    <Compile Include="CommandeContext.cs" />
     <Compile Include="produit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
