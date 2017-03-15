@@ -10,6 +10,10 @@ namespace ConsoleEntity
 	{
 		static void Main(string[] args)
 		{
+			using (var db = new CommandeContext())
+			{
+
+			}
 		}
 	}
 }
